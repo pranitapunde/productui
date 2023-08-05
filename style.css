@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    padding-inline: 50px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid black; */
+    border-bottom:  1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .llink{
+    width:100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: none;
+}
+.logo{
+    width: 100px;
+    height: 80px;  
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.link{
+    width: 400px;
+    height: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.link li a{
+    font-size: 20px;
+   text-decoration: none;
+   color: black;
+}
+.link li{
+    list-style: none;
+}
+.link a:hover{
+    color:blue;
+}
+.login{
+    width: 200px;
+    height: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.login span button{
+    width: 80px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+#bbtt button{
+    width: 80px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: grey;
+    color: white;
+    font-size: 12px;
+}
+
+
+/*----hero-section---- */
+.container{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container-2{
+    width: 90%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+
+    
+    
+    
+  
+}
+.left{
+    width: 50%;
+    height: 500px;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    background-image: url(./img/R.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, ; 
+    
+}
+.left h5{
+    font-size: 15px;
+    padding-top: 30px;
+}
+.left h1{
+    font-size: 40px;
+    padding-bottom:200px;
+}
+.pro{
+    width: 150px;
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pro {
+    position: relative;
+    bottom: 50px;
+    border-radius: 10px;
+    background-color: azure;
+}
+.right{
+    width: 50%;
+    height: 500px;
+    border-radius: 50px;
+    /* border: 1px solid black; */
+}
+.top{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    background-image: url(./img/ghi-wirelessearbuds-647637a98481e.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.top h4{
+    position: relative;
+    top: 30px;
+}
+.top h1{
+    position:relative;
+    bottom: 30px;
+    font-size: 45px;
+}
+.bottom{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    display: flex;
+   
+}
+.llt{
+    width: 50%;
+    height: 200px;
+    border-radius: 50px;
+    /* border: 1px solid black; */
+    background-color: rgb(108, 223, 152);
+}
+.our{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.our h4{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    font-size: 14px;
+}
+.our h4 i{
+    position: relative;
+    right: 30px;
+    font-size: 20px;
+}
+.llt h2{
+    position:relative;
+    top: 100px;
+    left: 20px;
+
+}
+.rrt{
+    width: 50%;
+    height: 200px;
+    border-radius: 50px;
+    /* border: 1px solid black; */
+    background-color: rgb(245, 221, 84);
+
+}
+.rrt h2{
+    position: relative;
+    top: 100px;
+    left: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+@media (max-width:768px) {
+    .main-containerwi
+    {
+        width: 100%;
+        height: auto;
+    }
+    nav{
+        width: 100%;
+        height: auto;
+
+    }
+    .link{
+        display: none;
+    }
+   .login{
+    display: none;
+   }
+   .menu{
+    display: inline;
+   }
+   .menu{
+    font-size: 18px;
+    padding-right: 30px;
+   }
+   .container{
+    width: 100%;
+    height: auto;
+    
+   }
+   .container-2{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+   }
+   .left{
+    width: 100%;
+    height: auto;
+   }
+   .right{
+    width: 100%;
+    height: auto;
+   }
+   .left h5{
+    font-size: 12px;
+   }
+   .left h1{
+    font-size: 28px;
+   }
+   .pro{
+    width: 130px;
+    height: 30px;
+    font-size: 12px;
+   }
+   .top h4{
+    font-size: 14px;
+   }
+   .top h1{
+    font-size: 28px;
+   }
+    .bottom{
+        width: 100%;
+        height: auto;
+    }
+    .our h4{
+        font-size: 12px;
+    }
+    .rrt h2{
+        font-size: 18px;
+    }
+    .llt h2{
+        font-size: 18px;
+    }
+   
+}
